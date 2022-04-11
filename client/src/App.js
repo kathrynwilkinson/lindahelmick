@@ -9,22 +9,27 @@ import Teaching from './pages/Teaching';
 import Philosophy from './pages/Philosophy';
 import Blog from './pages/Blog';
 import CV from './pages/CV';
-import { BrowserRouter as Router } from 'react-router-dom';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Redirect
+} from 'react-router-dom';
 import { Route, Routes } from 'react-router';
 
 function App() {
 
-const [backendData, setBackendData] = useState([{}]);
+  const [backendData, setBackendData] = useState([{}]);
 
-useEffect(() => {
-  fetch('/api').then(
-    response => response.json()
-  ).then(
-    data => {
-      setBackendData(data)
-    }
-  )
-}, []);
+  useEffect(() => {
+    fetch('/api').then(
+      response => response.json()
+    ).then(
+      data => {
+        setBackendData(data)
+      }
+    )
+  }, []);
 
 	return (
     <div className='App'>
@@ -36,7 +41,7 @@ useEffect(() => {
           <Route path='/research' element={<Research />} />
           <Route path='/teaching' element={<Teaching />} />
           <Route path='/philosophy' element={<Philosophy />} />
-          <Route path='/blog' element={<Blog />} />
+          <Route path='/blog' element={<Blog />}></Route>
           <Route path='/cv' element={<CV />} />
         </Routes>
       </Router>
@@ -48,3 +53,11 @@ useEffect(() => {
 }
 
 export default App;
+
+// {(typeof backendData.users === 'undefined') ? (
+//   <p>Loading...</p>
+// ): (
+//   backendData.users.map((user, i) => (
+//     <p key={i}>{user}</p>
+//   ))
+// )}
