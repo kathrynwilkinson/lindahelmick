@@ -1,0 +1,38 @@
+/* PAGE FOOTER STYLE */
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    padding: 2em;
+    justify-content: space-evenly;
+    font-size: .65em;
+    background-color: white;
+    width: 100vw;
+}
+.footer-text,
+a.footer-text {
+    display: flex;
+    padding: 7px;
+    color: lightgray !important;
+    text-decoration: none;
+}
+.follow {
+    margin-right: 10px;
+}
+.icon-links {
+    display: flex;
+    position: relative;
+    left: 3px;
+    bottom: 5px;
+    font-size: 12px;
+}
+.follow-link {
+    display: flex;
+    padding: 5px;
+    color: lightgray !important;
+}
+a.footer-text:hover,
+.follow-link:hover {
+    color: rgba(1, 194, 194, 0.37) !important;
+}

@@ -1,0 +1,68 @@
+/* development */
+
+/* div {
+	border: .25px solid lightgrey;
+} */
+
+#gallery-card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* append images to appropriate card (if it can't be done with data.json)*/
+#letter-to-children {
+	background-image: url(../../data/artwork/thumbnails/letter-to-children.JPG) ;
+	background-size: cover;
+	background-position: center;
+}
+#blurred-lines {
+	background-image: url(../../data/artwork/thumbnails/blurred-lines.JPG) ;
+	background-size: cover;
+	background-position: center;
+}
+#golden-moon {
+	background-image: url(../../data/artwork/thumbnails/golden-moon.JPG) ;
+	background-size: cover;
+	background-position: center;
+}
+#capturing-dreams {
+	background-image: url(../../data/artwork/thumbnails/capturing-dreams.JPG) ;
+	background-size: cover;
+	background-position: center;
+}
+#carry-on {
+	background-image: url(../../data/artwork/thumbnails/carry-on.jpeg) ;
+	background-size: cover;
+	background-position: center;
+}
+#castle-in-mist {
+	background-image: url(../../data/artwork/thumbnails/castle-in-mist.JPG) ;
+	background-size: cover;
+	background-position: center;
+}
+#clumsy-angel {
+	background-image: url(../../data/artwork/thumbnails/clumsy-angel.JPG) ;
+	background-size: cover;
+	background-position: center;
+}
+#clumsy-angel-wax {
+	background-image: url(../../data/artwork/thumbnails/clumsy-angel-wax.JPG) ;
+	background-size: cover;
+	background-position: center;
+}
+#dancing-in-sea {
+	background-image: url(../../data/artwork/thumbnails/dancing-in-sea.jpeg) ;
+	background-size: cover;
+	background-position: center;
+}
+#there-i-am {
+	background-image: url(../../data/artwork/thumbnails/there-i-am.JPG) ;
+	background-size: cover;
+	background-position: center;
+}
+#family-mandala {
+	background-image: url(../../data/artwork/thumbnails/family-mandala.jpeg) ;
+	background-size: cover;
+	background-position: center;
+}

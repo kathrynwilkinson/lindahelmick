@@ -1,0 +1,32 @@
+.nav-wrapper {
+    display: flex;
+    width: 100%;
+}
+.nav {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.nav-link {
+    color: linen;
+    display: flex;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.nav-link:link {
+    color: linen;
+}
+.nav-link:visited {
+    color: rgb(176, 155, 184);
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: rgb(239, 230, 250);
+}

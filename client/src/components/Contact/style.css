@@ -1,0 +1,13 @@
+.contact-links {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: baseline; */
+}
+
+.mail-icon {
+    height: 2em;
+    width: 2em;
+    padding: 2em;
+    display: flex;
+}

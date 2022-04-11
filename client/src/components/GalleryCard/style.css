@@ -1,0 +1,25 @@
+
+.gallery-card {
+	display: flex;
+	flex-direction: column;
+	margin: 0.5em;
+	justify-content: center;
+}
+.thumbnail {
+	height: 14em;
+	width: 12em;
+	/* background-color: ; */
+	display: flex;
+	margin: auto;
+}
+.thumb-info {
+	display: flex;
+	padding: 0.5em;
+	height: 2em;
+	background-color: whitesmoke;
+}
+.painting-titles {
+	font-size: 0.75em;
+	display: flex;
+	flex-wrap: wrap;
+}
