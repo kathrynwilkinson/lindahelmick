@@ -2,7 +2,7 @@ import './style.css';
 import React from 'react';
 
 
-export default function Exhibit ({title, id, alt}) {
+export default function Exhibit ({title, id, alt, exhibit}) {
 
 
     return (
@@ -15,7 +15,8 @@ export default function Exhibit ({title, id, alt}) {
             </div>
             <div className='thumb-info'>
                 <div className='title'>{title}</div>
-                <button className='details-btn'>Details</button>
+                {/* <div className='exhibit'>{exhibit+' Exhibit'}</div> */}
+                <button className='details-btn'>DETAILS</button>
             </div>
         </div>
     );
