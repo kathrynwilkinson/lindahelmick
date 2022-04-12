@@ -2,11 +2,11 @@ import './style.css';
 import React from 'react';
 
 
-export default function Exhibit ({title, id, alt, exhibit}) {
+export default function DisplayCard ({title, id, alt, exhibit}) {
 
 
     return (
-        <div className='exhibit-card'>
+        <div className='display-card'>
             <div
                 id={id}
                 className='thumbnail'
