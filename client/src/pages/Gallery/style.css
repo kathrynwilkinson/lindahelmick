@@ -5,18 +5,3 @@
 .exhibit-title {
 	display: flex;
 }
-.display-card-container {
-	display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-}
-
-/* Bootstrap carousel style */
-div.carousel,
-.carousel-indicators,
-.carousel-inner,
-.carousel-item {
-	height: 20em;
-	display: block;
-
-}

@@ -1,0 +1,30 @@
+div.carousel,
+.carousel-indicators,
+.carousel-inner,
+.carousel-item {
+	height: 30em;
+	display: flex;
+
+}
+.carousel-item,
+.active-carousel-item,
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+	display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.carousel-img {
+	display: flex;
+		align-self: center;
+	width: 100%;
+	height: auto;
+}
+.carousel-txt {
+	width: max-content;
+	margin: auto;
+	padding: 0.15em;
+	background-color: rgba(0, 0, 0, 0.09);
+	border-radius: 7px;
+}
