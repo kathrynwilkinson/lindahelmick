@@ -1,5 +1,10 @@
 .header-img {
-    background-color: lightslategray;
-    height: 25vh;
-    color: white;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url('../../images/headers/1q-color.JPG'); */
+    background-image: url('../../images/headers/4q-mono.JPG');
+    /* background-image: url('../../images/headers/angel-collage-mono.JPG'); */
+    /* background-image: url('../../images/headers/poppies-color.JPG'); */
 }
