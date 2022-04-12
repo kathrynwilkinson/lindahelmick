@@ -1,5 +1,6 @@
 import './style.css';
 import React from 'react';
+import headshot from '../../images/headshot-round.png';
 
 export default function Home () {
     return (
@@ -15,6 +16,7 @@ export default function Home () {
                 and transformation. Her areas of expertise include critical creative work with underserved populations
                 and building art education/art therapy wellness and self-care curricula to better serve those who have experienced trauma.
             </p>
+            <img id='headshot' src={headshot} alt='artist headshot' />
 
             <div id='current-exhibit'></div>
 
