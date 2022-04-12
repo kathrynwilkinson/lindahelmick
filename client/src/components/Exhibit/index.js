@@ -13,7 +13,10 @@ export default function Exhibit ({title, id, alt}) {
                 alt={alt+title}
             >
             </div>
-            <div className='thumb-info painting-titles'>{title}</div>
+            <div className='thumb-info'>
+                <div className='title'>{title}</div>
+                <button className='details-btn'>Details</button>
+            </div>
         </div>
     );
 }

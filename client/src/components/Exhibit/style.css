@@ -14,9 +14,16 @@
 .thumb-info {
 	display: flex;
 		flex-wrap: wrap;
-	font-size: 0.8em;
-	padding: 0.5em;
-	height: 3em;
-	width: 14em;
+		flex-direction: column;
+		justify-content: space-between;
+	font-size: 0.9em;
+	letter-spacing: -0.075em;
+	line-height: 0.925em;
+	padding: 0.7em 0.25em 0.25em 0.25em;
+	height: 3.95em;
+	width: 13em;
 	background-color: whitesmoke;
+}
+.details-btn {
+	font-size: 0.8em;
 }
