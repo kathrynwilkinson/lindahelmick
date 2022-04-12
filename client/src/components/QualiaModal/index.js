@@ -1,12 +1,13 @@
 import './style.css';
-import './qualia.css';
-import './modal.css';
-import React, { useState } from 'react';
-import DisplayCard from '../DisplayCard';
+import '../../assets/qualia.css';
+import '../../assets/modal.css';
 import qualiaPieces from '../../data/artwork/qualia.json';
+import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import DisplayCard from '../DisplayCard';
 // import ModalDialog from 'react-bootstrap/ModalDialog'
+
 export default function QualiaModal() {
 	const [show, setShow] = useState(false);
 

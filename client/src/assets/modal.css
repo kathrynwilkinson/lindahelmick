@@ -1,0 +1,23 @@
+:root {
+	--bootstrap-btn: rgba(6, 17, 37, 0.945);
+	--bootstrap-btn-hover: rgba(37, 52, 78, 0.932);
+}
+.modal-90w {
+	margin: 5vh 5vw;
+}
+.modal-90w,
+.modal-body,
+.modal-content {
+	width: 90vw;
+}
+.btn-primary {
+	background-color: var(--bootstrap-btn)!important;
+	border-color: var(--bootstrap-btn)!important;
+	margin: 0.5em 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.btn-primary:hover {
+	background-color: var(--bootstrap-btn-hover)!important;
+	border-color: var(--bootstrap-btn-hover)!important;
+}

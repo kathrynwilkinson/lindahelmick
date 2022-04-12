@@ -1,5 +1,5 @@
 import './style.css';
-import './modal.css';
+import '../../assets/modal.css';
 import React, { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
