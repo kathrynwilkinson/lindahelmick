@@ -2,11 +2,11 @@ import './style.css';
 import React from 'react';
 
 
-export default function GalleryCard ({title, id, alt}) {
+export default function Exhibit ({title, id, alt}) {
 
 
     return (
-        <div className='gallery-card'>
+        <div className='exhibit-card'>
             <div
                 id={id}
                 className='thumbnail'
