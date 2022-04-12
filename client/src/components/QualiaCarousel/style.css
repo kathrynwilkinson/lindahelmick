@@ -4,7 +4,7 @@ div.carousel,
 .carousel-item {
 	height: 30em;
 	display: flex;
-
+	border-radius: 3px;
 }
 .carousel-item,
 .active-carousel-item,

@@ -17,7 +17,7 @@
 
 
 .artist-bio {
-	margin-bottom: 4em;
+	margin-bottom: 3em;
 }
 
 #headshot {
@@ -27,7 +27,7 @@
 	margin: auto;
 }
 #current-exhibit-container {
-	margin: 4em 0;
+	margin: 3em 0;
 }
 h2#current-exhibit-header-txt {
 	display: flex;
