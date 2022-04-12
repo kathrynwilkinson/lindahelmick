@@ -1,11 +1,4 @@
-.modal-90w {
-	margin: 5vh 5vw;
-}
-.modal-90w,
-.modal-body,
-.modal-content {
-	width: 90vw;
-}
+
 .display-card-container {
 	display: flex;
 		flex-wrap: wrap;

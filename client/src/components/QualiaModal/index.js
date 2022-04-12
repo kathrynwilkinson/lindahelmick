@@ -1,8 +1,9 @@
 import './style.css';
+import './qualia.css';
+import './modal.css';
 import React, { useState } from 'react';
 import DisplayCard from '../DisplayCard';
 import qualiaPieces from '../../data/artwork/qualia.json';
-import './qualia.css';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 // import ModalDialog from 'react-bootstrap/ModalDialog'
