@@ -1,13 +1,13 @@
-.contact-links {
+div.contact-links {
     width: 100vw;
     display: flex;
     justify-content: center;
-    /* align-items: baseline; */
+    height: max-content;
 }
 
-.mail-icon {
+img.mail-icon {
     height: 2em;
     width: 2em;
-    padding: 2em;
+    margin: 1em 2em;
     display: flex;
 }

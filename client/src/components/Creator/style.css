@@ -3,8 +3,7 @@
 .footer-wrapper {
     display: flex;
     flex-direction: row;
-    align-content: flex-end;
-    padding: 2em;
+    padding: 1em;
     justify-content: space-evenly;
     font-size: .65em;
     background-color: white;
@@ -16,21 +15,6 @@ a.footer-text {
     padding: 7px;
     color: lightgray !important;
     text-decoration: none;
-}
-.follow {
-    margin-right: 10px;
-}
-.icon-links {
-    display: flex;
-    position: relative;
-    left: 3px;
-    bottom: 5px;
-    font-size: 12px;
-}
-.follow-link {
-    display: flex;
-    padding: 5px;
-    color: lightgray !important;
 }
 a.footer-text:hover,
 .follow-link:hover {

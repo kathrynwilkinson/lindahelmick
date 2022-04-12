@@ -1,6 +1,6 @@
 import './style.css';
 import React from 'react';
-import email from '../../images/email.png'
+import email from '../../images/email.png';
 
 export default function Contact () {
     return (
