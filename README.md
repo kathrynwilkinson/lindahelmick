@@ -3,6 +3,7 @@
 ## Technologies
 
 - MERN Stack
+- Bootstrap
 
 ![home top](./progress-img/helmick-1.0-home-top.png)
 ![home bottom](./progress-img/helmick-1.0-home-bottom.png)
