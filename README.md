@@ -18,4 +18,5 @@
 - connect front end and back end
 - deploy
 
+- store pics in cloudinary -- Jon's repo: https://github.com/ocskier/file-upload-multer-cloudinary
 -->
