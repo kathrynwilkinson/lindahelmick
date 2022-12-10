@@ -20,3 +20,11 @@
 
 - store pics in cloudinary -- Jon's repo: https://github.com/ocskier/file-upload-multer-cloudinary
 -->
+
+<!-- ## To Run Locally for Development
+
+- cd client
+- npm install (to update dependencies)
+- npm start
+
+ -->
