@@ -11,9 +11,7 @@ import Blog from './pages/Blog';
 import CV from './pages/CV';
 
 import {
-  BrowserRouter as Router,
-  Switch,
-  Redirect
+  BrowserRouter as Router
 } from 'react-router-dom';
 import { Route, Routes } from 'react-router';
 
